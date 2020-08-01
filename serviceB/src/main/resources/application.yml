@@ -1,0 +1,11 @@
+server:
+  port : 4002
+
+graphql:
+  federation:
+    enabled: true
+  packages:
+    - "com.federation.spike.serviceB"
+spring:
+  application:
+    name: serviceB
