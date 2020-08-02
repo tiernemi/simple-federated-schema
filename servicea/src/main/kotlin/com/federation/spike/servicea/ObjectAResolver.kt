@@ -1,11 +1,12 @@
-package com.federation.spike.serviceB
+package com.federation.spike.servicea
 
 import com.expediagroup.graphql.annotations.GraphQLDescription
 import com.expediagroup.graphql.spring.operations.Query
 import org.springframework.stereotype.Component
 
 @Component
-class ObjectBResolver : Query {
+class ObjectAQuery : Query {
     @GraphQLDescription("Fetches a new object for a given primary key")
-    fun objectB(): ObjectBModel? = ObjectBModel("I'm resolved by Service B")
+    fun objectA(): ObjectAModel? = ObjectAModel(1, "I'm resolved by service A")
 }
+

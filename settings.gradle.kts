@@ -13,5 +13,5 @@ pluginManagement {
     }
 }
 rootProject.name = "service"
-include("serviceA")
-include("serviceB")
+include("servicea")
+include("serviceb")

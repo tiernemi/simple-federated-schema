@@ -1,4 +1,4 @@
-package com.federation.spike.serviceA
+package com.federation.spike.servicea
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

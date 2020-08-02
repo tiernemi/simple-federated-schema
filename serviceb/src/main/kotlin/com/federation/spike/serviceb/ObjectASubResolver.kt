@@ -1,4 +1,4 @@
-package com.federation.spike.serviceB
+package com.federation.spike.serviceb
 
 import com.expediagroup.graphql.federation.directives.ExtendsDirective
 import com.expediagroup.graphql.federation.directives.ExternalDirective

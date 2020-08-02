@@ -1,11 +1,12 @@
 server:
-  port : 4001
+  port : 4002
 
 graphql:
   federation:
     enabled: true
   packages:
-    - "com.federation.spike.serviceA"
+    - "com.federation.spike.serviceb"
 spring:
   application:
-    name: serviceA
+    name: serviceb
+

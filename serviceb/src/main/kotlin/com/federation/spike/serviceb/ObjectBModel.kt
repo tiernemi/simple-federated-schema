@@ -1,3 +1,3 @@
-package com.federation.spike.serviceB
+package com.federation.spike.serviceb
 
 data class ObjectBModel(val resolvedField: String)

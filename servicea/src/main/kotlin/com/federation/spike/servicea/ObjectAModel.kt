@@ -1,4 +1,4 @@
-package com.federation.spike.serviceA
+package com.federation.spike.servicea
 
 import com.expediagroup.graphql.federation.directives.FieldSet
 import com.expediagroup.graphql.federation.directives.KeyDirective

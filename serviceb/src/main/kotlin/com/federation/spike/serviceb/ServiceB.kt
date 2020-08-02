@@ -1,4 +1,4 @@
-package com.federation.spike.serviceB
+package com.federation.spike.serviceb
 
 import com.expediagroup.graphql.federation.execution.FederatedTypeRegistry
 import org.springframework.boot.autoconfigure.SpringBootApplication
@@ -12,6 +12,8 @@ class ServiceB {
 		return FederatedTypeRegistry(mapOf("ObjectAModel" to objectAResolver))
 	}
 }
+
+
 
 fun main(args: Array<String>) {
 	runApplication<ServiceB>(*args)
